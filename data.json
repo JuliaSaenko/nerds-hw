@@ -1,0 +1,15 @@
+{
+  "menu": [
+    "Студия",
+    "Клиенты",
+    "Магазин",
+    "Наши работы"
+  ],
+
+  "images": [
+    "htmlacademy.png",
+    "pink.png",
+    "mishka.png",
+    "borodinski.png"
+  ]
+}
