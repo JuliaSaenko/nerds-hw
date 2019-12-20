@@ -57,7 +57,7 @@ const formValidate = () => {
 
   popup.classList.remove(errorPopupClass);
 
-  const nameValidate = /^[^0-9]\w[^#&<>\"~;$^%{}?]{1,15}$/;
+  const nameValidate = /^[А-ЯЁ][а-яё]+ [А-ЯЁ][а-яё]+$/;
   const emailValidate = /^\w+[.!#$%&'*+/=?^_`{|}~-]*?\w*?@[a-z]+?\.[a-z]{2,4}$/;
 
   if (!formName.value.match(nameValidate)) {
